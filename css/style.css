@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.Nuestros-exitos .row .card {
+  --bs-card-border-width: 0 ;
+}
+.Nuestros-exitos .row .card .card-body .stars {
+  color: orange;
+}
+.Nuestros-exitos .row .card .card-body .boton-comprar .btn-violeta {
+  --bs-btn-color: #fff !important;
+  --bs-btn-bg: #730aa9 !important;
+  --bs-btn-border-color: #730aa9;
+  --bs-btn-hover-color: #730aa9 ;
+  --bs-btn-hover-bg: #ffffff;
+  --bs-btn-hover-border-color: #730aa9 !important ;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff ;
+  --bs-btn-active-bg: #730aa9 ;
+  --bs-btn-active-border-color: #730aa9 ;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #730aa9 ;
+  --bs-btn-disabled-bg: #fff ;
+  --bs-btn-disabled-border-color: #730aa9 ;
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-50%, -50%);
+}
+
+.Beneficios #contenedor-beneficios .contenedor-icono {
+  width: 200px;
+}
+.Beneficios #contenedor-beneficios .contenedor-icono .icono {
+  color: #cd3e4a;
+  background-color: #f5c4b4;
+  border-radius: 100px;
+  border: 5px solid #cd3e4a;
+  font-size: 32px;
+  margin: 15px;
+  line-height: 68px;
+  width: 78px;
+  height: 78px;
+  text-align: center;
+  margin: auto;
+}
+.Beneficios #contenedor-beneficios .contenedor-icono .icono1 {
+  color: #11cc9d;
+  background-color: #62d1bf;
+  border-radius: 100px;
+  border: 5px solid #11cc9d;
+  font-size: 32px;
+  margin: 15px;
+  line-height: 68px;
+  width: 78px;
+  height: 78px;
+  text-align: center;
+  margin: auto;
+}
+.Beneficios #contenedor-beneficios .contenedor-icono .icono2 {
+  color: #ec930c;
+  background-color: #ebc47c;
+  border-radius: 100px;
+  border: 5px solid #ec930c;
+  font-size: 32px;
+  margin: 15px;
+  line-height: 68px;
+  width: 78px;
+  height: 78px;
+  text-align: center;
+  margin: auto;
+}
+.Beneficios #contenedor-beneficios .contenedor-icono .icono3 {
+  color: #9a0cec;
+  background-color: #d692eb;
+  border-radius: 100px;
+  border: 5px solid #9a0cec;
+  font-size: 32px;
+  margin: 15px;
+  line-height: 68px;
+  width: 78px;
+  height: 78px;
+  text-align: center;
+  margin: auto;
+}
+.Beneficios #contenedor-beneficios .contenedor-icono .icono4 {
+  color: #1653d8;
+  background-color: #7775eb;
+  border-radius: 100px;
+  border: 5px solid #1653d8;
+  font-size: 32px;
+  margin: 15px;
+  line-height: 68px;
+  width: 78px;
+  height: 78px;
+  text-align: center;
+  margin: auto;
+}
+
+#footer .row .ocultar-mobile .suscribirse {
+  position: relative;
+}
+#footer .row .ocultar-mobile .suscribirse h6 {
+  line-height: 40px;
+  vertical-align: sub;
+}
+#footer .row .ocultar-mobile .suscribirse .newsletter {
+  width: 500px;
+}
+#footer .row .ocultar-mobile .suscribirse .btn-violeta {
+  --bs-btn-color: #fff !important;
+  --bs-btn-bg: #730aa9 !important;
+  --bs-btn-border-color: #730aa9;
+  --bs-btn-hover-color: #730aa9;
+  --bs-btn-hover-bg: #ffffff;
+  --bs-btn-hover-border-color: #730aa9 !important;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #730aa9;
+  --bs-btn-active-border-color: #730aa9;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #730aa9;
+  --bs-btn-disabled-bg: #fff;
+  --bs-btn-disabled-border-color: #730aa9;
+}
+#footer .row .ocultar-mobile .suscribirse #boton-suscribirse {
+  position: absolute;
+  right: 9%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#footer .row #redes-sociales #facebook {
+  width: 64px;
+  height: 64px;
+}
+#footer .row #redes-sociales #facebook .bi {
+  font-size: 32px;
+}
+#footer .row #redes-sociales #twitter {
+  width: 64px;
+  height: 64px;
+}
+#footer .row #redes-sociales #twitter .bi {
+  font-size: 32px;
+}
+#footer .row #redes-sociales #ig {
+  width: 64px;
+  height: 64px;
+}
+#footer .row #redes-sociales #ig .bi {
+  font-size: 32px;
+}
+#footer .row #redes-sociales #whatsapp {
+  width: 64px;
+  height: 64px;
+}
+#footer .row #redes-sociales #whatsapp .bi {
+  font-size: 32px;
+}
+#footer .row #footer-rigth .row #logo-footer .d-flex .logo-footer {
+  height: 128px;
+}
+
+@media screen and (max-width: 700px) {
+  .ocultar-mobile {
+    display: none;
+  }
+  .Beneficios #contenedor-beneficios {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  #fundadores-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  #ellos-container .fragancias-ellos {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  #ellas-container .fragancias-ellas {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  #footer-rigth .row #contacto-footer {
+    text-align: center;
+  }
+  #redes-sociales {
+    text-align: center;
+    justify-content: center;
+  }
+}
+#ellas-container .fragancias-ellas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+#ellas-container .fragancias-ellas .card {
+  width: 18rem;
+}
+#ellas-container .fragancias-ellas .card .card-body .btn-violeta {
+  --bs-btn-color: #fff !important;
+  --bs-btn-bg: #730aa9 !important;
+  --bs-btn-border-color: #730aa9;
+  --bs-btn-hover-color: #730aa9;
+  --bs-btn-hover-bg: #ffffff;
+  --bs-btn-hover-border-color: #730aa9 !important;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #730aa9;
+  --bs-btn-active-border-color: #730aa9;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #730aa9;
+  --bs-btn-disabled-bg: #fff;
+  --bs-btn-disabled-border-color: #730aa9;
+}
+
+#ellos-container .fragancias-ellos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+#ellos-container .fragancias-ellos .card {
+  width: 18rem;
+}
+#ellos-container .fragancias-ellos .card .card-body .btn-violeta {
+  --bs-btn-color: #fff !important;
+  --bs-btn-bg: #730aa9 !important;
+  --bs-btn-border-color: #730aa9;
+  --bs-btn-hover-color: #730aa9;
+  --bs-btn-hover-bg: #ffffff;
+  --bs-btn-hover-border-color: #730aa9 !important;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #730aa9;
+  --bs-btn-active-border-color: #730aa9;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #730aa9;
+  --bs-btn-disabled-bg: #fff;
+  --bs-btn-disabled-border-color: #730aa9;
+}
+
+.nosotros #fundadores-container .fundadores .foto #fundadores-fotos {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+}
+.nosotros #fundadores-container .fundadores .nombre-funmdador {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */
